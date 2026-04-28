@@ -1,0 +1,126 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_12.pdf")#
+#
+for(i in 6:10){#
+  x <- Body[, i]#
+  y <- Body[, i+1]#
+  hist(x)#
+  hist(y)#
+  plot(x, y, main=paste("Column", i, "vs", i+1))#
+}#
+#
+dev.off()
+setwd("desktop")
+setwd("data")
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_12.pdf")#
+#
+for(i in 6:10){#
+  x <- Body[, i]#
+  y <- Body[, i+1]#
+  hist(x)#
+  hist(y)#
+  plot(x, y, main=paste("Column", i, "vs", i+1))#
+}#
+#
+dev.off()
+setwd("CSV置いてる場所")   # 必要なら#
+#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+plot(Body[,6], Body[,7])
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_12.pdf")#
+#
+for(i in 6:10){#
+  x <- Body[, i]#
+  y <- Body[, i+1]#
+  hist(x)#
+  hist(y)#
+  plot(x, y, main=paste("Column", i, "vs", i+1))#
+}#
+#
+dev.off()
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF作成#
+pdf("figs_9_12.pdf")#
+#
+# 複数グラフ作成#
+for(i in 6:10){#
+  x <- Body[, i]#
+  y <- Body[, i+1]#
+  hist(x, main=paste("Histogram of column", i))#
+  hist(y, main=paste("Histogram of column", i+1))#
+  plot(x, y, main=paste("Scatter:", i, "vs", i+1),#
+       xlab=paste("Column", i),#
+       ylab=paste("Column", i+1))#
+}#
+#
+# 保存終了#
+dev.off()

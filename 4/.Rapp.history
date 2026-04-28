@@ -1,0 +1,101 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+setwd(desktop)
+setwd("desktop")
+setwd("data")
+setwd("4")
+Body = read.table("SampleData03_forR2.csv",header=T,sep=",")
+cname = colname(Body)
+cname = colnames(Body)
+x = Body[,7]
+y =Body[,8]
+plot(x,y)
+plot(9,10)
+plot(8,9)
+plot(,8,9)
+plot(Body[,8,9])
+plot(Body[,9,10])
+plot(Body[,7,8])
+plot(Body[,8:9])
+plot(Body[,8:9])
+cname = colname(Body
+sdf
+Body = read.table("SampleData03_forR2.csv",header=T,sep=",")#
+cname = colnames(Body)#
+pdf("body_plot.pdf")#
+plot(Body[,8:9],xlabel=cname[8],ylabel=cname[9])#
+dev_off()
+Body = read.table("SampleData03_forR2.csv", header = T, sep = ",")#
+cname = colnames(Body)#
+#
+pdf("body_plot.pdf")#
+plot(Body[,8:9], xlab = cname[8], ylab = cname[9])#
+dev.off()
+dir()
+source("kadai2.r")
+source("kadai2.r")
+warnings()
+source("kadai2.r")
+source("kadai2.r")
+source("test01.r")
+source("test.r")
+source("test.r")
+source("test.r")
+source("test.r")
+source("kadai2.r")
+source("kadai2.r")
+source("test.r")

@@ -1,0 +1,273 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+setwd("desktop")
+setwd("data")
+setwd("23")
+setwd("5")
+# 作業フォルダ確認（必要なら変更）#
+getwd()#
+# setwd("自分のフォルダパス")#
+#
+# データ読み込み（これ絶対先にやる）#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF作成#
+pdf("figs_9_12.pdf")#
+#
+# 複数グラフ作成#
+for(i in 6:10){#
+  x <- Body[, i]#
+  y <- Body[, i+1]#
+  hist(x, main=paste("Histogram of column", i))#
+  hist(y, main=paste("Histogram of column", i+1))#
+  plot(x, y, main=paste("Scatter:", i, "vs", i+1),#
+       xlab=paste("Column", i),#
+       ylab=paste("Column", i+1))#
+}#
+#
+# 保存終了#
+dev.off()
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_13.pdf")#
+#
+# ★ 4つの列を選ぶ（ここは自由に変えてOK）#
+# 例：6,7,8,9列#
+plot(Body[, c(6,7,8,9)],#
+     main="Scatter Plot Matrix (4 variables)")#
+#
+# 保存#
+dev.off()
+# 作業フォルダ確認（必要なら変更）#
+getwd()#
+# setwd("自分のフォルダパス")#
+#
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_14.pdf")#
+#
+# ★ 基準となる列（x軸）を1つ決める#
+x <- Body[,6]#
+#
+# yに使う列を3つ選ぶ（合計4項目になるように）#
+y1 <- Body[,7]#
+y2 <- Body[,8]#
+y3 <- Body[,9]#
+#
+# 1つ目（ベース）#
+plot(x, y1, col="red",#
+     xlab="Column 6", ylab="Value",#
+     main="Overlay Scatter Plot",#
+     xlim=range(x),#
+     ylim=range(c(y1, y2, y3)))#
+#
+# 上書きして重ねる#
+par(new=TRUE)#
+plot(x, y2, col="blue",#
+     xlab="", ylab="",#
+     xlim=range(x),#
+     ylim=range(c(y1, y2, y3)))#
+#
+par(new=TRUE)#
+plot(x, y3, col="green",#
+     xlab="", ylab="",#
+     xlim=range(x),#
+     ylim=range(c(y1, y2, y3)))#
+#
+# 保存#
+dev.off()
+# 作業フォルダ確認（必要なら変更）#
+getwd()#
+# setwd("自分のフォルダパス")#
+#
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_14.pdf")#
+#
+# ★ 基準となる列（x軸）を1つ決める#
+x <- Body[,6]#
+#
+# yに使う列を3つ選ぶ（合計4項目になるように）#
+y1 <- Body[,7]#
+y2 <- Body[,8]#
+y3 <- Body[,9]#
+#
+# 1つ目（ベース）#
+plot(x, y1, col="red",#
+     xlab="Column 6", ylab="Value",#
+     main="Overlay Scatter Plot",#
+     xlim=range(x),#
+     ylim=range(c(y1, y2, y3)))#
+#
+# 上書きして重ねる#
+par(new=TRUE)#
+plot(x, y2, col="blue",#
+     xlab="", ylab="",#
+     xlim=range(x),#
+     ylim=range(c(y1, y2, y3)))#
+#
+par(new=TRUE)#
+plot(x, y3, col="green",#
+     xlab="", ylab="",#
+     xlim=range(x),#
+     ylim=range(c(y1, y2, y3)))#
+#
+# 保存#
+dev.off()
+# 作業フォルダ確認（必要なら変更）#
+getwd()#
+# setwd("自分のフォルダパス")#
+#
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_15.pdf")#
+#
+# ★ 使う2列（自由に変更OK）#
+x <- Body[,6]#
+y <- Body[,7]#
+#
+# ① パターン1#
+plot(x, y,#
+     pch=1, col="red",#
+     main="Pattern 1")#
+#
+# ② パターン2#
+plot(x, y,#
+     pch=16, col="blue",#
+     main="Pattern 2")#
+#
+# ③ パターン3（塗りつぶしあり）#
+plot(x, y,#
+     pch=21, col="green", bg="yellow",#
+     main="Pattern 3")#
+#
+# 保存#
+dev.off()
+# 作業フォルダ確認#
+getwd()#
+# setwd("自分のフォルダパス")#
+#
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# PDF出力#
+pdf("figs_9_16.pdf")#
+#
+# ★ 4つの列を選ぶ（自由）#
+cols <- c(6,7,8,9)#
+#
+# ★ 性別で色分け（ここがポイント）#
+pairs(Body[, cols],#
+      pch=21,#
+      bg=c("red","blue")[unclass(Body$Sex)],#
+      main="Scatter Plot Matrix (Colored by Sex)")#
+#
+# 保存#
+dev.off()
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# 念のためfactor化#
+Body$Sex <- factor(Body$Sex)#
+#
+pdf("figs_9_16.pdf")#
+#
+pairs(Body[, c(6,7,8,9)],#
+      pch=21,#
+      bg=c("red","blue")[unclass(Body$Sex)],#
+      main="Colored by Sex")#
+#
+dev.off()
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# ★ ここだけ変えればOK（任意の4列）#
+cols <- c(4,6,8,9)#
+#
+# PDF出力#
+pdf("figs_9_13.pdf")#
+#
+# 散布図一覧#
+plot(Body[, cols],#
+     main=paste("Scatter Plot Matrix:", paste(cols, collapse=", ")))#
+#
+# 保存#
+dev.off()
+# データ読み込み#
+Body <- read.table("SampleData03_forR2.csv", header=TRUE, sep=",")#
+#
+# ★ ここだけ変えればOK（任意の4列）#
+cols <- c(6,7,8,9)#
+#
+# PDF出力#
+pdf("figs_9_13.pdf")#
+#
+# 散布図一覧#
+plot(Body[, cols],#
+     main=paste("Scatter Plot Matrix:", paste(cols, collapse=", ")))#
+#
+# 保存#
+dev.off()
+source("9-15.R")
+source("data9-15.R")
