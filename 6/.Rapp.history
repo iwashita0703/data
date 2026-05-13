@@ -1,0 +1,189 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+getwd()
+setwd("desktop")
+setwd("data")
+setwd("6")
+source("kadai3.pdf")
+source("kadai3.R")
+source("kadai3.R")
+Body <- read.table("SampleData03_forR2.csv",#
+                   header=TRUE,#
+                   sep=",")#
+#
+x1 <- Body[,7]#
+y1 <- Body[,8]#
+#
+result <- lm(y1 ~ x1)#
+#
+result#
+#
+options(show.signif.stars = FALSE)#
+#
+summary(result)#
+#
+residuals(result)#
+#
+predict(result)#
+#
+str(result)#
+#
+names(result)
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+Body <- read.table("SampleData03_forR2.csv",#
+                   header = TRUE, sep = ",")#
+#
+pdf("11-5A_All.pdf")#
+#
+plot(Body[,8] ~ Body[,7])#
+result <- lm(Body[,8] ~ Body[,7])#
+abline(result)#
+#
+text(#
+  mean(Body[,7]),#
+  mean(Body[,8]),#
+  sprintf("y = %.2f x + %.2f",#
+          result$coefficients[2],#
+          result$coefficients[1])#
+)#
+#
+dev.off()
+source("kadai5.R")
+pdf("11-5A_All.pdf", width=10, height=6)#
+#
+plot(#
+  Body[,8] ~ Body[,7],#
+  xlab = "Weight",#
+  ylab = "Height",#
+  ylim = c(140, 200)#
+)#
+#
+result <- lm(Body[,8] ~ Body[,7])#
+abline(result)#
+#
+text(#
+  min(Body[,7]) + 0.05 * diff(range(Body[,7])),#
+  max(Body[,8]) - 0.05 * diff(range(Body[,8])),#
+  sprintf("y = %.2f x + %.2f",#
+          result$coefficients[2],#
+          result$coefficients[1]),#
+  pos = 4#
+)#
+#
+dev.off()
+text(#
+  mean(Body[,7]),#
+  mean(Body[,8]),#
+  sprintf("y = %.2f x + %.2f",#
+          result$coefficients[2],#
+          result$coefficients[1])#
+)
+text(#
+  mean(Body[,7]),#
+  mean(Body[,8]),#
+  sprintf("y = %.2f x + %.2f",#
+          result$coefficients[2],#
+          result$coefficients[1])#
+)
+Body <- read.table("SampleData03_forR2.csv",#
+                   header = TRUE, sep = ",")#
+#
+pdf("11-5A_All.pdf")#
+#
+plot(Body[,8] ~ Body[,7])#
+result <- lm(Body[,8] ~ Body[,7])#
+abline(result)#
+#
+text(#
+  mean(Body[,7]),#
+  mean(Body[,8]),#
+  sprintf("y = %.2f x + %.2f",#
+          result$coefficients[2],#
+          result$coefficients[1])#
+)#
+#
+dev.off()
+Body <- read.table("SampleData03_forR2.csv",#
+                   header = TRUE, sep = ",")#
+#
+pdf("11-5A_All.pdf")#
+#
+plot(Body[,8] ~ Body[,7])#
+result <- lm(Body[,8] ~ Body[,7])#
+abline(result)#
+#
+text(#
+  mean(Body[,7]),#
+  mean(Body[,8]),#
+  sprintf("y = %.2f x + %.2f",#
+          result$coefficients[2],#
+          result$coefficients[1])#
+)#
+#
+dev.off()
+source("kadai5.R")
+source("kadai5.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai6.R")

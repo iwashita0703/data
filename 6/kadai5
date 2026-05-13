@@ -1,0 +1,42 @@
+# ===============================
+# 11-5A（資料どおり・全体）
+# ===============================
+
+# データ読み込み
+Body <- read.table("SampleData03_forR2.csv",
+                   header = TRUE, sep = ",")
+
+# PDF出力開始
+pdf("11-5A_All.pdf")
+
+# 散布図（資料どおり y ~ x）
+# y : 身長（8列目）
+# x : 体重（7列目）
+plot(
+  Body[,8] ~ Body[,7],
+  xlab = "Weight",
+  ylab = "Height"
+)
+
+# 単回帰分析（資料どおり）
+result <- lm(Body[,8] ~ Body[,7])
+
+# 回帰直線
+abline(result)
+
+# 回帰式（資料どおり coefficients + sprintf）
+eq <- sprintf(
+  "y = %.3f x + %.3f",
+  result$coefficients[2],
+  result$coefficients[1]
+)
+
+# ★表示位置をデータ範囲内に自動調整（重要）
+text(
+  mean(Body[,7]),
+  max(Body[,8]),
+  eq
+)
+
+# PDF終了
+dev.off()

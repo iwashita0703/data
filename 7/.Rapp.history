@@ -1,0 +1,98 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+setwd("desktop")
+setwd("data")
+setwd("7")
+source("kadai1")
+source("kadai1.R")
+source("kadai1.R")
+source("kadai1.R")
+source("kadai1.R")
+source("kadai2.R")
+source("kadai1.R")
+source("kadai2.R")
+source("kadai2.R")
+source("kadai1.R")
+source("kadai.R")
+source("kadai.R")
+source("kadai2.R")
+source("kadai2.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai4.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai5.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
