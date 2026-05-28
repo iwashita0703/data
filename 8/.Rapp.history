@@ -54,147 +54,10 @@ ggplot(sales, aes(x = date, y = revenue)) +#
     y = "Revenue"#
   ) +#
   theme_minimal()
-setwd(desktop)
-setwd("desktop")
-setwd("data")
-setwd("8")
-source("kadai")
-source("kadai.R")
+# 重回帰分析の実行 [4]#
 conveni <- read.table("conveni.csv", header=TRUE, sep=",")#
 hage <- read.table("hage.csv", header=TRUE, sep=",")#
 test_data <- read.table("test.csv", header=TRUE, sep=",")#
-#
-# ==========================================#
-# 【課題 15-2A・15-3A】 散布図と単回帰分析#
-# ==========================================#
-# 4つのグラフを1つのPDFに出力する設定#
-pdf("Class08_rp15-2A_3A_YY.pdf")#
-par(mfrow=c(2,2)) # 2行2列で表示#
-#
-expl_vars <- colnames(conveni)[2:5] # 説明変数(X1〜X4)#
-y_var <- conveni$uriage_hyakuman    # 目的変数(Y)#
-#
-for (i in expl_vars) {#
-  x_var <- conveni[[i]]#
-  plot(y_var ~ x_var, main=paste("Uriage vs", i), xlab=i, ylab="Uriage")#
-  # 単回帰分析の実行と直線の追加 [3, 7]#
-  res <- lm(y_var ~ x_var)#
-  abline(res)#
-  # 回帰式と寄与率の表示 [3]#
-  r2 <- summary(res)$r.squared#
-  mtext(sprintf("y = %.2f x + %.2f", res$coefficients[8], res$coefficients[9]), side=3, line=1, cex=0.7)#
-  mtext(sprintf("R^2 = %.4f", r2), side=3, line=0, cex=0.7)#
-}#
-dev.off()
-pdf("Class08_rp15-2A_3A_YY.pdf")#
-par(mfrow=c(2,2))  # 2行2列で表示#
-#
-expl_vars <- colnames(conveni)[2:5]  # 説明変数 X1〜X4#
-y_var <- conveni$uriage_hyakuman     # 目的変数 Y#
-#
-for (i in expl_vars) {#
-  x_var <- conveni[[i]]#
-  # 散布図#
-  plot(x_var, y_var,#
-       main = paste("Uriage vs", i),#
-       xlab = i, ylab = "Uriage")#
-  # 単回帰#
-  res <- lm(y_var ~ x_var)#
-  abline(res, col="blue")#
-  # 回帰式の係数（切片・傾き）#
-  a <- res$coefficients[1]  # 切片#
-  b <- res$coefficients[2]  # 傾き#
-  # 寄与率 R^2#
-  r2 <- summary(res)$r.squared#
-  # 左上座標を自動取得#
-  usr <- par("usr")#
-  x_left <- usr[1] + (usr[2] - usr[1]) * 0.02#
-  y_top  <- usr[4] - (usr[4] - usr[3]) * 0.05#
-  # 回帰式と R^2 を左上に表示#
-  text(x_left, y_top,#
-       sprintf("y = %.2f x + %.2f", b, a),#
-       adj = c(0,1), cex = 0.8)#
-  text(x_left, y_top - (usr[4] - usr[3]) * 0.07,#
-       sprintf("R^2 = %.4f", r2),#
-       adj = c(0,1), cex = 0.8)#
-}#
-#
-dev.off()
-pdf("Class08_rp15-2A_3A_YY.pdf")#
-par(mfrow=c(2,2))  # 2行2列で表示#
-#
-expl_vars <- colnames(conveni)[2:5]  # 説明変数 X1〜X4#
-y_var <- conveni$uriage_hyakuman     # 目的変数 Y#
-#
-for (i in expl_vars) {#
-  x_var <- conveni[[i]]#
-  # 散布図（タイトルなし）#
-  plot(x_var, y_var,#
-       main = "",   # ← タイトルを消す#
-       xlab = i, ylab = "Uriage")#
-  # 単回帰#
-  res <- lm(y_var ~ x_var)#
-  abline(res, col="blue")#
-  # 回帰式の係数#
-  a <- res$coefficients[1]  # 切片#
-  b <- res$coefficients[2]  # 傾き#
-  # R^2#
-  r2 <- summary(res)$r.squared#
-  # タイトル位置（上部中央）に表示#
-  mtext(sprintf("y = %.2f x + %.2f    |    R^2 = %.4f", b, a, r2),#
-        side = 3, line = 0.5, cex = 0.8)#
-}#
-#
-dev.off()
-pdf("Class08_rp15-2A_3A_YY.pdf")#
-par(mfrow=c(2,2))  # 2行2列で表示#
-#
-expl_vars <- colnames(conveni)[2:5]  # 説明変数 X1〜X4#
-y_var <- conveni$uriage_hyakuman     # 目的変数 Y#
-#
-for (i in expl_vars) {#
-  x_var <- conveni[[i]]#
-  # 散布図（タイトルなし）#
-  plot(x_var, y_var,#
-       main = "",   # ← タイトルを消す#
-       xlab = i, ylab = "Uriage")#
-  # 単回帰#
-  res <- lm(y_var ~ x_var)#
-  abline(res, col="blue")#
-  # 回帰式の係数#
-  a <- res$coefficients[1]  # 切片#
-  b <- res$coefficients[2]  # 傾き#
-  # R^2#
-  r2 <- summary(res)$r.squared#
-  # タイトル位置に縦に表示#
-  mtext(sprintf("y = %.2f x + %.2f", b, a),#
-        side = 3, line = 1.0, cex = 0.8)#
-  mtext(sprintf("R^2 = %.4f", r2),#
-        side = 3, line = 0.0, cex = 0.8)#
-}#
-#
-dev.off()
-source("kadai1.R")
-source("kadai1.R")
-# conveni.csv を読み込む#
-conveni <- read.table("conveni.csv", header = TRUE, sep = ",")#
-#
-# 説明変数と目的変数を取り出す#
-x1 <- conveni$jinkou_sennin#
-x2 <- conveni$syouten_tenpo#
-x3 <- conveni$bento_syurui#
-x4 <- conveni$okashi_syurui#
-y  <- conveni$uriage_hyakuman#
-#
-# 重回帰モデルの作成#
-result <- lm(y ~ x1 + x2 + x3 + x4)#
-#
-# 結果の表示#
-result#
-#
-# モデルの詳細（係数・t値・p値・残差など）#
-summary(result)
-# 重回帰分析の実行 [4]#
 # Y(売上) ~ X1(人口) + X2(商店) + X3(弁当) + X4(お菓子)#
 result_conveni <- lm(uriage_hyakuman ~ jinkou_sennin + syouten_tenpo + bento_syurui + okashi_syurui, data=conveni)#
 summary(result_conveni) # 係数などの確認 [5, 10]#
@@ -203,6 +66,34 @@ summary(result_conveni) # 係数などの確認 [5, 10]#
 new_store <- data.frame(jinkou_sennin=30, syouten_tenpo=35, bento_syurui=25, okashi_syurui=50)#
 pred_21 <- predict(result_conveni, new_store)#
 cat("課題 15-5A: 21番目の店舗の売上予測値 =", pred_21, "百万円\n")
-source("kadai2.R")
-source("kadai3.R")
-source("kadai2.R")
+setwd("desl")
+setwd("desktop")
+setwd("data")
+setwd("8")
+source(kadai.R)
+source("kadai.R")
+getwd()
+source("kadai1.R")
+source("kadai.R")
+conveni <- read.table("conveni.csv", header=TRUE, sep=",")#
+hage <- read.table("hage.csv", header=TRUE, sep=",")#
+test_data <- read.table("test.csv", header=TRUE, sep=",")#
+#
+pdf("Class08_rp15-2A_3A_YY.pdf")#
+#
+par(mfrow=c(2,2))  # 2行2列#
+#
+expl_vars <- colnames(conveni)[2:5]   # X1〜X4#
+y_var <- conveni$uriage_hyakuman      # Y#
+#
+for (i in expl_vars) {#
+  x_var <- conveni[[i]]#
+  # 散布図のみ#
+  plot(x_var, y_var,#
+       main = "",#
+       xlab = i,#
+       ylab = "Uriage")#
+}#
+#
+dev.off()
+source("kadai.R")

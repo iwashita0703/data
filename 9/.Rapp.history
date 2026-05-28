@@ -1,0 +1,159 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+# 重回帰分析の実行 [4]#
+conveni <- read.table("conveni.csv", header=TRUE, sep=",")#
+hage <- read.table("hage.csv", header=TRUE, sep=",")#
+test_data <- read.table("test.csv", header=TRUE, sep=",")#
+# Y(売上) ~ X1(人口) + X2(商店) + X3(弁当) + X4(お菓子)#
+result_conveni <- lm(uriage_hyakuman ~ jinkou_sennin + syouten_tenpo + bento_syurui + okashi_syurui, data=conveni)#
+summary(result_conveni) # 係数などの確認 [5, 10]#
+#
+# 21番目の店舗の予測 (X1=30, X2=35, X3=25, X4=50)#
+new_store <- data.frame(jinkou_sennin=30, syouten_tenpo=35, bento_syurui=25, okashi_syurui=50)#
+pred_21 <- predict(result_conveni, new_store)#
+cat("課題 15-5A: 21番目の店舗の売上予測値 =", pred_21, "百万円\n")
+setwd("desktop")
+setwd("data")
+setwd("data")
+setwd("9")
+source("kadai7.R")
+options(warn = 0)#
+warnings()
+rm(list = ls())
+df_raw <- read.csv("gakusyuu.csv", header = TRUE, fileEncoding = "UTF-8")#
+df_raw$就職率 <- as.numeric(df_raw$就職率)#
+df <- df_raw[!is.na(df_raw$就職率), ]
+pdf("Class12_rp12-4A_YY.pdf")#
+#
+barplot(#
+  df$就職率,#
+  names.arg = df$学科名,#
+  las = 2,#
+  cex.names = 0.6,#
+  col = "skyblue"#
+)#
+#
+dev.off()
+rm(list = ls())#
+#
+df_raw <- read.csv("gakusyuu.csv", header = TRUE, fileEncoding = "UTF-8")#
+df_raw$就職率 <- as.numeric(df_raw$就職率)#
+df <- df_raw[!is.na(df_raw$就職率), ]#
+#
+# 学科名を短縮（警告対策）#
+df$短縮名 <- substr(df$学科名, 1, 5)#
+#
+pdf("Class12_rp12-4A_YY.pdf")#
+#
+barplot(#
+  df$就職率,#
+  names.arg = df$短縮名,#
+  las = 2,#
+  cex.names = 0.8,#
+  col = "skyblue"#
+)#
+#
+dev.off()
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+list.files()
+png("test.png")#
+plot(1:10)#
+dev.off()
+rm(list = ls())#
+#
+library(ggplot2)#
+#
+df_raw <- read.csv("gakusyuu.csv", header = TRUE, fileEncoding = "UTF-8")#
+df_raw$就職率 <- as.numeric(df_raw$就職率)#
+df <- df_raw[!is.na(df_raw$就職率), ]#
+#
+# PNG 出力開始#
+png("Class12_rp12-4A_YY.png", width = 1200, height = 800)#
+#
+# ここで必ず print() を使う（VSCode や RStudio で必要になる）#
+print(#
+  ggplot(df, aes(x = 学科名, y = 就職率)) +#
+    geom_col(fill = "skyblue") +#
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 6)) +#
+    labs(#
+      title = "学科別の就職率（令和8年3月卒）",#
+      x = "学科名",#
+      y = "就職率（％）"#
+    )#
+)#
+#
+dev.off()
+df_raw <- read.csv("gakusyuu.csv", header = TRUE, fileEncoding = "UTF-8")#
+names(df_raw)
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
+source("kadai8.R")
