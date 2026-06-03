@@ -13,7 +13,7 @@ print(
   ggplot(df, aes(x = 短縮名, y = 就職率)) +
     geom_col(fill = "skyblue") +
     theme(
-      text = element_text(family = "Hiragino Sans"),   # ← Mac ではこれが最強
+      text = element_text(family = "Hiragino Sans"),   
       axis.text.x = element_text(angle = 90, hjust = 1, size = 10)
     ) +
     labs(

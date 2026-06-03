@@ -5,7 +5,7 @@ library(ggplot2)
 df <- read.csv("gakusyuu.csv", header = TRUE, fileEncoding = "UTF-8")
 
 df$就職率 <- as.numeric(df$就職率)
-df <- df[!is.na(df$就職率), ]  # NA を除外
+df <- df[!is.na(df$就職率), ]
 df$短縮名 <- factor(df$短縮名, levels = df$短縮名)
 
 png("Class12_rp12-4B_pie_YY.png", width = 1200, height = 800)
@@ -16,7 +16,7 @@ print(
     coord_polar(theta = "y") +
     theme_void() +
     theme(
-      text = element_text(family = "Hiragino Sans"),  # ← Mac で日本語が四角にならない
+      text = element_text(family = "Hiragino Sans"),  
       legend.title = element_text(size = 12),
       legend.text = element_text(size = 10)
     ) +
