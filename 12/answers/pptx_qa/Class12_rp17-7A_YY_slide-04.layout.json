@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/bi15ji",
-    "id": "bi15ji",
+    "aid": "sl/13ekgz",
+    "id": "13ekgz",
     "slide": 4,
-    "layoutId": "78871b1a-248c-433b-a139-90faa7fa1f53",
+    "layoutId": "94b77354-8d13-47a1-923f-a7988d4154e2",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "caf51c7f-cf68-487e-9280-c9e7f6a9bb21",
+    "masterLayoutId": "29668dc3-5fd8-4e89-b215-c3f8b0425f8a",
     "masterLayoutName": "Master",
     "backgroundColor": "#FFFFFF",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "78871b1a-248c-433b-a139-90faa7fa1f53",
+      "id": "94b77354-8d13-47a1-923f-a7988d4154e2",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "caf51c7f-cf68-487e-9280-c9e7f6a9bb21",
+      "parentLayoutId": "29668dc3-5fd8-4e89-b215-c3f8b0425f8a",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "caf51c7f-cf68-487e-9280-c9e7f6a9bb21",
+      "id": "29668dc3-5fd8-4e89-b215-c3f8b0425f8a",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4byhgn29",
+      "aid": "sh/lwval87e",
       "id": "1",
       "bbox": [
         64,
@@ -125,7 +125,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bq1oryts",
+      "aid": "sh/e9cvixcz",
       "id": "2",
       "bbox": [
         66,
@@ -183,7 +183,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m58z25kb",
+      "aid": "sh/3q5o7qpg",
       "id": "3",
       "bbox": [
         76,
@@ -192,8 +192,8 @@
         310
       ],
       "geometry": "rect",
-      "text": "・採用優先候補は受験者2。総合力が高く、科目間の偏りも小さい。\n・専門性や論述力を重視する職種では受験者1も候補になる。\n・対人評価や英語を重視する職種では受験者4、次いで受験者3を検討できる。\n・受験者5は全体的な基礎力不足が大きく、採用優先度は低い。",
-      "textPreview": "・採用優先候補は受験者2。総合力が高く、科目間の偏りも小さい。 | ・専門性や論述力を重視する職種では受験者1も候補になる。 | ・対人評価や英語を重視する職種では受験者4、次いで受験者3を検討できる。 | ・受験者5は全体的な基礎力不足が大きく、採用優先度は低い。",
+      "text": "・採用優先順位は、総合力を重視すると 2 → 4 → 3 → 1 → 5 と考えられる。\n・受験者2は全体的に高く、上位5名を選ぶ際の中心候補になる。\n・受験者1は専門・論文型、受験者4と3は英語・面接型として配属先を分けて考える。\n・受験者5は上位5名に入れる場合も、入社後の基礎力補強が必要である。",
+      "textPreview": "・採用優先順位は、総合力を重視すると 2 → 4 → 3 → 1 → 5 と考えられる。 | ・受験者2は全体的に高く、上位5名を選ぶ際の中心候補になる。 | ・受験者1は専門・論文型、受験者4と3は英語・面接型として配属先を分けて考える。 | ・受験者5は上位5名に入れる...",
       "resolvedFontSize": 18,
       "resolvedTextStyle": {
         "fontSize": 18,
@@ -208,38 +208,42 @@
         }
       },
       "textLayout": {
-        "lineCount": 6,
+        "lineCount": 7,
         "lines": [
           {
             "index": 1,
-            "text": "・採用優先候補は受験者2。総合力が高く、科目間の偏りも小さい"
+            "text": "・採用優先順位は、総合力を重視すると 2 → 4 → 3 → 1 → 5"
           },
           {
             "index": 2,
-            "text": "。"
+            "text": "と考えられる。"
           },
           {
             "index": 3,
-            "text": "・専門性や論述力を重視する職種では受験者1も候補になる。"
+            "text": "・受験者2は全体的に高く、上位5名を選ぶ際の中心候補になる。"
           },
           {
             "index": 4,
-            "text": "・対人評価や英語を重視する職種では受験者4、次いで受験者3を"
+            "text": "・受験者1は専門・論文型、受験者4と3は英語・面接型として配属"
           },
           {
             "index": 5,
-            "text": "検討できる。"
+            "text": "先を分けて考える。"
           },
           {
             "index": 6,
-            "text": "・受験者5は全体的な基礎力不足が大きく、採用優先度は低い。"
+            "text": "・受験者5は上位5名に入れる場合も、入社後の基礎力補強が必要"
+          },
+          {
+            "index": 7,
+            "text": "である。"
           }
         ]
       },
       "paragraphs": [
         {
           "index": 1,
-          "text": "・採用優先候補は受験者2。総合力が高く、科目間の偏りも小さい。",
+          "text": "・採用優先順位は、総合力を重視すると 2 → 4 → 3 → 1 → 5 と考えられる。",
           "resolvedTextStyle": {
             "fontSize": 18,
             "color": "#1C2A32"
@@ -247,7 +251,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "・採用優先候補は受験者2。総合力が高く、科目間の偏りも小さい。",
+              "text": "・採用優先順位は、総合力を重視すると 2 → 4 → 3 → 1 → 5 と考えられる。",
               "fontSize": 18,
               "color": "#1C2A32"
             }
@@ -256,7 +260,7 @@
         },
         {
           "index": 2,
-          "text": "・専門性や論述力を重視する職種では受験者1も候補になる。",
+          "text": "・受験者2は全体的に高く、上位5名を選ぶ際の中心候補になる。",
           "resolvedTextStyle": {
             "fontSize": 18,
             "color": "#1C2A32"
@@ -264,7 +268,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "・専門性や論述力を重視する職種では受験者1も候補になる。",
+              "text": "・受験者2は全体的に高く、上位5名を選ぶ際の中心候補になる。",
               "fontSize": 18,
               "color": "#1C2A32"
             }
@@ -273,7 +277,7 @@
         },
         {
           "index": 3,
-          "text": "・対人評価や英語を重視する職種では受験者4、次いで受験者3を検討できる。",
+          "text": "・受験者1は専門・論文型、受験者4と3は英語・面接型として配属先を分けて考える。",
           "resolvedTextStyle": {
             "fontSize": 18,
             "color": "#1C2A32"
@@ -281,7 +285,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "・対人評価や英語を重視する職種では受験者4、次いで受験者3を検討できる。",
+              "text": "・受験者1は専門・論文型、受験者4と3は英語・面接型として配属先を分けて考える。",
               "fontSize": 18,
               "color": "#1C2A32"
             }
@@ -290,7 +294,7 @@
         },
         {
           "index": 4,
-          "text": "・受験者5は全体的な基礎力不足が大きく、採用優先度は低い。",
+          "text": "・受験者5は上位5名に入れる場合も、入社後の基礎力補強が必要である。",
           "resolvedTextStyle": {
             "fontSize": 18,
             "color": "#1C2A32"
@@ -298,7 +302,7 @@
           "runs": [
             {
               "index": 1,
-              "text": "・受験者5は全体的な基礎力不足が大きく、採用優先度は低い。",
+              "text": "・受験者5は上位5名に入れる場合も、入社後の基礎力補強が必要である。",
               "fontSize": 18,
               "color": "#1C2A32"
             }
@@ -312,7 +316,7 @@
       "order": 4,
       "kind": "table",
       "scope": "slide",
-      "aid": "tb/0bi9s36h",
+      "aid": "tb/l0rqd4vm",
       "id": "4",
       "bbox": [
         700,
@@ -898,7 +902,7 @@
       "order": 5,
       "kind": "table",
       "scope": "slide",
-      "aid": "tb/pwb2hwfy",
+      "aid": "tb/wfyxobm5",
       "id": "5",
       "bbox": [
         700,
@@ -1484,7 +1488,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b2hwfyxo",
+      "aid": "sh/ex0nuxc3",
       "id": "6",
       "bbox": [
         64,

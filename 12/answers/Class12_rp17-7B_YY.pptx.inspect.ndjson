@@ -1,46 +1,46 @@
-{"kind":"deck","id":"pr/l6108u","name":"Deck"}
-{"kind":"layout","layoutId":"7bc0e15a-9575-48f5-8b1c-e3d0de15c8d9","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"238a1a90-28ce-4e65-8458-e93c586ab97a","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/99p127","slide":1,"title":"同価格帯7車種の評価分析","textShapes":10}
-{"kind":"textbox","id":"sh/kb6xkf6d","slide":1,"text":"同価格帯7車種の評価分析","textPreview":"同価格帯7車種の評価分析","textChars":12,"textLines":1,"bbox":[64,42,890,56]}
-{"kind":"textbox","id":"sh/rqd4vmtw","slide":1,"text":"kuruma.csv: 動力性能・居住性・デザイン評価人数をPCAで整理","textPreview":"kuruma.csv: 動力性能・居住性・デザイン評価人数をPCAで整理","textChars":36,"textLines":1,"bbox":[66,92,1000,28]}
-{"kind":"shape","id":"sh/25kb6xkf","slide":1,"bbox":[64,170,248,112]}
-{"kind":"shape","id":"sh/9knih4by","slide":1,"bbox":[64,170,8,112]}
-{"kind":"textbox","id":"sh/kzupwb2h","slide":1,"text":"PC1寄与率","textPreview":"PC1寄与率","textChars":6,"textLines":1,"bbox":[88,188,198,24]}
-{"kind":"textbox","id":"sh/re1w7mp0","slide":1,"text":"66.0%","textPreview":"66.0%","textChars":5,"textLines":1,"bbox":[88,215,198,46]}
-{"kind":"shape","id":"sh/2t83itgf","slide":1,"bbox":[334,170,248,112]}
-{"kind":"shape","id":"sh/9gr2p8nq","slide":1,"bbox":[334,170,8,112]}
-{"kind":"textbox","id":"sh/gvy90je9","slide":1,"text":"PC2寄与率","textPreview":"PC2寄与率","textChars":6,"textLines":1,"bbox":[358,188,198,24]}
-{"kind":"textbox","id":"sh/yd0z6103","slide":1,"text":"33.2%","textPreview":"33.2%","textChars":5,"textLines":1,"bbox":[358,215,198,46]}
-{"kind":"shape","id":"sh/rytsvu9k","slide":1,"bbox":[604,170,248,112]}
-{"kind":"shape","id":"sh/gfmlkjm1","slide":1,"bbox":[604,170,8,112]}
-{"kind":"textbox","id":"sh/90je9cvi","slide":1,"text":"累積寄与率","textPreview":"累積寄与率","textChars":5,"textLines":1,"bbox":[628,188,198,24]}
-{"kind":"textbox","id":"sh/y1kre1w7","slide":1,"text":"99.2%","textPreview":"99.2%","textChars":5,"textLines":1,"bbox":[628,215,198,46]}
-{"kind":"textbox","id":"sh/rmhk3q5o","slide":1,"text":"・PC1は動力性能・居住性が大きく、総合性能を表す軸と解釈できる\n・PC2はデザイン評価の違いを強く表す\n・PC1+PC2で元データの99.2%を説明できる","textPreview":"・PC1は動力性能・居住性が大きく、総合性能を表す軸と解釈できる | ・PC2はデザイン評価の違いを強く表す | ・PC1+PC2で元データの99.2%を説明できる","textChars":78,"textLines":3,"bbox":[70,332,520,210]}
-{"kind":"textbox","id":"sh/9s36hcrm","slide":1,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
-{"kind":"image","id":"im/3m94fu18","slide":1,"name":"","alt":"寄与率の棒グラフ","bbox":[675,320,500,300]}
-{"kind":"notes","id":"nt/99p127","slide":1,"text":""}
-{"kind":"slide","id":"sl/c7lp82","slide":2,"title":"元データの確認","textShapes":4}
-{"kind":"textbox","id":"sh/ulwval87","slide":2,"text":"元データの確認","textPreview":"元データの確認","textChars":7,"textLines":1,"bbox":[64,42,890,56]}
-{"kind":"textbox","id":"sh/1cfa9w3m","slide":2,"text":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textPreview":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textChars":27,"textLines":1,"bbox":[66,92,1000,28]}
-{"kind":"textbox","id":"sh/uxc3ylc7","slide":2,"text":"・Fは3項目すべてが高く、総合評価で最も強い。\n・BとDはデザイン評価が相対的に高いが、性能・居住性は低め。","textPreview":"・Fは3項目すべてが高く、総合評価で最も強い。 | ・BとDはデザイン評価が相対的に高いが、性能・居住性は低め。","textChars":54,"textLines":2,"bbox":[72,535,1080,90]}
-{"kind":"textbox","id":"sh/1kre1w7m","slide":2,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
-{"kind":"table","id":"tb/1w7mp0bi","slide":2,"name":"","rows":8,"cols":4,"preview":"syasyu | douryokuseinou | kyojyuusei | dezain","bbox":[58,142,590,340]}
-{"kind":"image","id":"im/2x4nap4r","slide":2,"name":"","alt":"元データの棒グラフ","bbox":[660,142,560,380]}
-{"kind":"notes","id":"nt/c7lp82","slide":2,"text":""}
-{"kind":"slide","id":"sl/lew5as","slide":3,"title":"主成分得点と負荷量","textShapes":4}
-{"kind":"textbox","id":"sh/vmtwra5g","slide":3,"text":"主成分得点と負荷量","textPreview":"主成分得点と負荷量","textChars":9,"textLines":1,"bbox":[64,42,890,56]}
-{"kind":"textbox","id":"sh/o7qpg3ex","slide":3,"text":"第1主成分と第2主成分の位置関係から特徴を読む","textPreview":"第1主成分と第2主成分の位置関係から特徴を読む","textChars":23,"textLines":1,"bbox":[66,92,1000,28]}
-{"kind":"textbox","id":"sh/vy90je9c","slide":3,"text":"・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。","textPreview":"・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。","textChars":43,"textLines":1,"bbox":[78,585,1040,70]}
-{"kind":"textbox","id":"sh/oj2t83it","slide":3,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
-{"kind":"image","id":"im/oj2t83it","slide":3,"name":"","alt":"主成分得点の散布図","bbox":[58,134,560,430]}
-{"kind":"image","id":"im/vmtwra5g","slide":3,"name":"","alt":"主成分負荷量の散布図","bbox":[660,134,520,430]}
-{"kind":"notes","id":"nt/lew5as","slide":3,"text":""}
-{"kind":"slide","id":"sl/ms47pk","slide":4,"title":"解釈と提案","textShapes":4}
-{"kind":"textbox","id":"sh/eloj2t83","slide":4,"text":"解釈と提案","textPreview":"解釈と提案","textChars":5,"textLines":1,"bbox":[64,42,890,56]}
-{"kind":"textbox","id":"sh/lc7u54zi","slide":4,"text":"分析担当としての結論","textPreview":"分析担当としての結論","textChars":10,"textLines":1,"bbox":[66,92,1000,28]}
-{"kind":"textbox","id":"sh/wra5gbq1","slide":4,"text":"・最有力はF。全項目で高く、広告でも主力として扱いやすい。\n・EとCは動力性能・居住性を押し出す訴求に向いている。\n・BとDはデザインを評価する層に訴求できるが、総合評価では弱い。\n・GとAは中位で、突出点を補う追加調査が必要。","textPreview":"・最有力はF。全項目で高く、広告でも主力として扱いやすい。 | ・EとCは動力性能・居住性を押し出す訴求に向いている。 | ・BとDはデザインを評価する層に訴求できるが、総合評価では弱い。 | ・GとAは中位で、突出点を補う追加調査が必要。","textChars":114,"textLines":4,"bbox":[76,150,560,310]}
-{"kind":"textbox","id":"sh/l0rqd4vm","slide":4,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
-{"kind":"table","id":"tb/2x4nap4r","slide":4,"name":"","rows":8,"cols":3,"preview":"syasyu | PC1 | PC2","bbox":[700,130,420,260]}
-{"kind":"table","id":"tb/vixczed8","slide":4,"name":"","rows":4,"cols":3,"preview":"variable | PC1 | PC2","bbox":[700,428,420,190]}
-{"kind":"notes","id":"nt/ms47pk","slide":4,"text":""}
+{"kind":"deck","id":"pr/l00e9w","name":"Deck"}
+{"kind":"layout","layoutId":"0a291c98-955e-4ac4-a99b-5899e4ee43c5","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"6b21c833-72a6-4e5f-8f74-a378cb1616e1","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/7qgwyk","slide":1,"title":"同価格帯7車種の評価分析","textShapes":10}
+{"kind":"textbox","id":"sh/4r65wjud","slide":1,"text":"同価格帯7車種の評価分析","textPreview":"同価格帯7車種の評価分析","textChars":12,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":1,"text":"kuruma.csv: 動力性能・居住性・デザイン評価人数をPCAで整理","textPreview":"kuruma.csv: 動力性能・居住性・デザイン評価人数をPCAで整理","textChars":36,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":1,"bbox":[64,170,248,112]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":1,"bbox":[64,170,8,112]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":1,"text":"PC1寄与率","textPreview":"PC1寄与率","textChars":6,"textLines":1,"bbox":[88,188,198,24]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":1,"text":"66.0%","textPreview":"66.0%","textChars":5,"textLines":1,"bbox":[88,215,198,46]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":1,"bbox":[334,170,248,112]}
+{"kind":"shape","id":"sh/xobm58z2","slide":1,"bbox":[334,170,8,112]}
+{"kind":"textbox","id":"sh/83itgfml","slide":1,"text":"PC2寄与率","textPreview":"PC2寄与率","textChars":6,"textLines":1,"bbox":[358,188,198,24]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":1,"text":"33.2%","textPreview":"33.2%","textChars":5,"textLines":1,"bbox":[358,215,198,46]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":1,"bbox":[604,170,248,112]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":1,"bbox":[604,170,8,112]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":1,"text":"累積寄与率","textPreview":"累積寄与率","textChars":5,"textLines":1,"bbox":[628,188,198,24]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":1,"text":"99.2%","textPreview":"99.2%","textChars":5,"textLines":1,"bbox":[628,215,198,46]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":1,"text":"・PC1は動力性能・居住性が大きく、総合性能を表す軸と解釈できる\n・PC2はデザイン評価の違いを強く表す\n・PC1+PC2で元データの99.2%を説明できる","textPreview":"・PC1は動力性能・居住性が大きく、総合性能を表す軸と解釈できる | ・PC2はデザイン評価の違いを強く表す | ・PC1+PC2で元データの99.2%を説明できる","textChars":78,"textLines":3,"bbox":[70,332,520,210]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":1,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"image","id":"im/nuxc3ylc","slide":1,"name":"","alt":"寄与率の棒グラフ","bbox":[675,320,500,300]}
+{"kind":"notes","id":"nt/7qgwyk","slide":1,"text":""}
+{"kind":"slide","id":"sl/ucklkl","slide":2,"title":"元データの確認","textShapes":4}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":2,"text":"元データの確認","textPreview":"元データの確認","textChars":7,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":2,"text":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textPreview":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textChars":27,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":2,"text":"・Fは3項目すべてが高く、総合評価で最も強い。\n・BとDはデザイン評価が相対的に高いが、性能・居住性は低め。","textPreview":"・Fは3項目すべてが高く、総合評価で最も強い。 | ・BとDはデザイン評価が相対的に高いが、性能・居住性は低め。","textChars":54,"textLines":2,"bbox":[72,535,1080,90]}
+{"kind":"textbox","id":"sh/54zidony","slide":2,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"table","id":"tb/pwb2hwfy","slide":2,"name":"","rows":8,"cols":4,"preview":"syasyu | douryokuseinou | kyojyuusei | dezain","bbox":[58,142,590,340]}
+{"kind":"image","id":"im/il0rqd4v","slide":2,"name":"","alt":"元データの棒グラフ","bbox":[660,142,560,380]}
+{"kind":"notes","id":"nt/ucklkl","slide":2,"text":""}
+{"kind":"slide","id":"sl/3lcp87","slide":3,"title":"主成分得点と負荷量","textShapes":4}
+{"kind":"textbox","id":"sh/tcj6tova","slide":3,"text":"主成分得点と負荷量","textPreview":"主成分得点と負荷量","textChars":9,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":3,"text":"第1主成分と第2主成分の位置関係から特徴を読む","textPreview":"第1主成分と第2主成分の位置関係から特徴を読む","textChars":23,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":3,"text":"・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。","textPreview":"・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。","textChars":43,"textLines":1,"bbox":[78,585,1040,70]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":3,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"image","id":"im/q1orytsv","slide":3,"name":"","alt":"主成分得点の散布図","bbox":[58,134,560,430]}
+{"kind":"image","id":"im/1gvy90je","slide":3,"name":"","alt":"主成分負荷量の散布図","bbox":[660,134,520,430]}
+{"kind":"notes","id":"nt/3lcp87","slide":3,"text":""}
+{"kind":"slide","id":"sl/l76uu3","slide":4,"title":"解釈と提案","textShapes":4}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":4,"text":"解釈と提案","textPreview":"解釈と提案","textChars":5,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":4,"text":"分析担当としての結論","textPreview":"分析担当としての結論","textChars":10,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":4,"text":"・最有力はF。全項目で高く、広告でも主力として扱いやすい。\n・EとCは動力性能・居住性を押し出す訴求に向いている。\n・BとDはデザインを評価する層に訴求できるが、総合評価では弱い。\n・GとAは中位で、突出点を補う追加調査が必要。","textPreview":"・最有力はF。全項目で高く、広告でも主力として扱いやすい。 | ・EとCは動力性能・居住性を押し出す訴求に向いている。 | ・BとDはデザインを評価する層に訴求できるが、総合評価では弱い。 | ・GとAは中位で、突出点を補う追加調査が必要。","textChars":114,"textLines":4,"bbox":[76,150,560,310]}
+{"kind":"textbox","id":"sh/9knih4by","slide":4,"text":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7B | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"table","id":"tb/y1kre1w7","slide":4,"name":"","rows":8,"cols":3,"preview":"syasyu | PC1 | PC2","bbox":[700,130,420,260]}
+{"kind":"table","id":"tb/rmhk3q5o","slide":4,"name":"","rows":4,"cols":3,"preview":"variable | PC1 | PC2","bbox":[700,428,420,190]}
+{"kind":"notes","id":"nt/l76uu3","slide":4,"text":""}

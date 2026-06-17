@@ -1,0 +1,46 @@
+{"kind":"deck","id":"pr/nz8t8f","name":"Deck"}
+{"kind":"layout","layoutId":"29668dc3-5fd8-4e89-b215-c3f8b0425f8a","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"94b77354-8d13-47a1-923f-a7988d4154e2","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ln0qj5","slide":1,"title":"入社試験成績の分析","textShapes":10}
+{"kind":"textbox","id":"sh/m94fu18j","slide":1,"text":"入社試験成績の分析","textPreview":"入社試験成績の分析","textChars":9,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":1,"text":"nyusya_shiken.csv: 5名の試験結果を主成分分析で評価","textPreview":"nyusya_shiken.csv: 5名の試験結果を主成分分析で評価","textChars":35,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":1,"bbox":[64,170,248,112]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":1,"bbox":[64,170,8,112]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":1,"text":"PC1寄与率","textPreview":"PC1寄与率","textChars":6,"textLines":1,"bbox":[88,188,198,24]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":1,"text":"56.3%","textPreview":"56.3%","textChars":5,"textLines":1,"bbox":[88,215,198,46]}
+{"kind":"shape","id":"sh/83itgfml","slide":1,"bbox":[334,170,248,112]}
+{"kind":"shape","id":"sh/fepkzupw","slide":1,"bbox":[334,170,8,112]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":1,"text":"PC2寄与率","textPreview":"PC2寄与率","textChars":6,"textLines":1,"bbox":[358,188,198,24]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":1,"text":"38.8%","textPreview":"38.8%","textChars":5,"textLines":1,"bbox":[358,215,198,46]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":1,"bbox":[604,170,248,112]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":1,"bbox":[604,170,8,112]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":1,"text":"累積寄与率","textPreview":"累積寄与率","textChars":5,"textLines":1,"bbox":[628,188,198,24]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":1,"text":"95.1%","textPreview":"95.1%","textChars":5,"textLines":1,"bbox":[628,215,198,46]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":1,"text":"・PC1は全科目が正方向で、総合力を表す軸と解釈できる\n・PC2は専門・論文が正、英語・面接が負で、強みの種類を分ける\n・PC1+PC2で元データの95.1%を説明できる","textPreview":"・PC1は全科目が正方向で、総合力を表す軸と解釈できる | ・PC2は専門・論文が正、英語・面接が負で、強みの種類を分ける | ・PC1+PC2で元データの95.1%を説明できる","textChars":85,"textLines":3,"bbox":[70,332,520,210]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":1,"text":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"image","id":"im/twra5gbq","slide":1,"name":"","alt":"寄与率の棒グラフ","bbox":[675,320,500,300]}
+{"kind":"notes","id":"nt/ln0qj5","slide":1,"text":""}
+{"kind":"slide","id":"sl/dkc9h6","slide":2,"title":"元データの確認","textShapes":4}
+{"kind":"textbox","id":"sh/fyxobm58","slide":2,"text":"元データの確認","textPreview":"元データの確認","textChars":7,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":2,"text":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textPreview":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textChars":27,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":2,"text":"・受験者2は全体的に高得点で安定している。受験者5は全科目で低い。\n・受験者1は専門と論文、受験者3・4は英語や面接に特徴がある。","textPreview":"・受験者2は全体的に高得点で安定している。受験者5は全科目で低い。 | ・受験者1は専門と論文、受験者3・4は英語や面接に特徴がある。","textChars":65,"textLines":2,"bbox":[72,535,1080,90]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":2,"text":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"table","id":"tb/svu9knih","slide":2,"name":"","rows":6,"cols":6,"preview":"ID | kyouyou | senmon | eigo | mensetsu | ronbun","bbox":[58,142,590,340]}
+{"kind":"image","id":"im/rqd4vmtw","slide":2,"name":"","alt":"元データの棒グラフ","bbox":[660,142,560,380]}
+{"kind":"notes","id":"nt/dkc9h6","slide":2,"text":""}
+{"kind":"slide","id":"sl/gpc6dv","slide":3,"title":"主成分得点と負荷量","textShapes":4}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":3,"text":"主成分得点と負荷量","textPreview":"主成分得点と負荷量","textChars":9,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":3,"text":"第1主成分と第2主成分の位置関係から特徴を読む","textPreview":"第1主成分と第2主成分の位置関係から特徴を読む","textChars":23,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":3,"text":"・右側ほど総合評価が高い。上側ほど専門・論文型、下側ほど英語・面接型の傾向が強い。","textPreview":"・右側ほど総合評価が高い。上側ほど専門・論文型、下側ほど英語・面接型の傾向が強い。","textChars":41,"textLines":1,"bbox":[78,585,1040,70]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":3,"text":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"image","id":"im/5kb6xkf6","slide":3,"name":"","alt":"主成分得点の散布図","bbox":[58,134,560,430]}
+{"kind":"image","id":"im/u54zidon","slide":3,"name":"","alt":"主成分負荷量の散布図","bbox":[660,134,520,430]}
+{"kind":"notes","id":"nt/gpc6dv","slide":3,"text":""}
+{"kind":"slide","id":"sl/13ekgz","slide":4,"title":"解釈と提案","textShapes":4}
+{"kind":"textbox","id":"sh/lwval87e","slide":4,"text":"解釈と提案","textPreview":"解釈と提案","textChars":5,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":4,"text":"分析担当としての結論","textPreview":"分析担当としての結論","textChars":10,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":4,"text":"・採用優先順位は、総合力を重視すると 2 → 4 → 3 → 1 → 5 と考えられる。\n・受験者2は全体的に高く、上位5名を選ぶ際の中心候補になる。\n・受験者1は専門・論文型、受験者4と3は英語・面接型として配属先を分けて考える。\n・受験者5は上位5名に入れる場合も、入社後の基礎力補強が必要である。","textPreview":"・採用優先順位は、総合力を重視すると 2 → 4 → 3 → 1 → 5 と考えられる。 | ・受験者2は全体的に高く、上位5名を選ぶ際の中心候補になる。 | ・受験者1は専門・論文型、受験者4と3は英語・面接型として配属先を分けて考える。 | ・受験者5は上位5名に入れる...","textChars":151,"textLines":4,"bbox":[76,150,560,310]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":4,"text":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7A | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"table","id":"tb/l0rqd4vm","slide":4,"name":"","rows":6,"cols":3,"preview":"ID | PC1 | PC2","bbox":[700,130,420,260]}
+{"kind":"table","id":"tb/wfyxobm5","slide":4,"name":"","rows":6,"cols":3,"preview":"variable | PC1 | PC2","bbox":[700,428,420,190]}
+{"kind":"notes","id":"nt/13ekgz","slide":4,"text":""}
