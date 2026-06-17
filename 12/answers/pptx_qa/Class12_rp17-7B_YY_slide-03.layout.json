@@ -1,0 +1,342 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/lew5as",
+    "id": "lew5as",
+    "slide": 3,
+    "layoutId": "238a1a90-28ce-4e65-8458-e93c586ab97a",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7bc0e15a-9575-48f5-8b1c-e3d0de15c8d9",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F6F7",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "238a1a90-28ce-4e65-8458-e93c586ab97a",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7bc0e15a-9575-48f5-8b1c-e3d0de15c8d9",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7bc0e15a-9575-48f5-8b1c-e3d0de15c8d9",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "1",
+      "bbox": [
+        64,
+        42,
+        890,
+        56
+      ],
+      "geometry": "rect",
+      "text": "主成分得点と負荷量",
+      "textPreview": "主成分得点と負荷量",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#143642",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "主成分得点と負荷量"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "主成分得点と負荷量",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#143642",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "主成分得点と負荷量",
+              "fontSize": 34,
+              "color": "#143642",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "2",
+      "bbox": [
+        66,
+        92,
+        1000,
+        28
+      ],
+      "geometry": "rect",
+      "text": "第1主成分と第2主成分の位置関係から特徴を読む",
+      "textPreview": "第1主成分と第2主成分の位置関係から特徴を読む",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#56636D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "第1主成分と第2主成分の位置関係から特徴を読む"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "第1主成分と第2主成分の位置関係から特徴を読む",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#56636D"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "第1主成分と第2主成分の位置関係から特徴を読む",
+              "fontSize": 15,
+              "color": "#56636D"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/oj2t83it",
+      "id": "3",
+      "bbox": [
+        58,
+        134,
+        560,
+        430
+      ],
+      "alt": "主成分得点の散布図",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "28e52304-531b-4b24-bed2-7483f39f2b88",
+        "contentType": "image/png",
+        "byteLength": 67828
+      }
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/vmtwra5g",
+      "id": "4",
+      "bbox": [
+        660,
+        134,
+        520,
+        430
+      ],
+      "alt": "主成分負荷量の散布図",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "320bceae-bd57-4cf4-b1f6-27678b31c028",
+        "contentType": "image/png",
+        "byteLength": 73756
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "5",
+      "bbox": [
+        78,
+        585,
+        1040,
+        70
+      ],
+      "geometry": "rect",
+      "text": "・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。",
+      "textPreview": "・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#1C2A32",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#1C2A32"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "・左側ほど総合性能が高い。下側ほどデザイン評価寄り、上側ほど性能・居住性寄りに読める。",
+              "fontSize": 18,
+              "color": "#1C2A32"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oj2t83it",
+      "id": "6",
+      "bbox": [
+        64,
+        682,
+        760,
+        22
+      ],
+      "geometry": "rect",
+      "text": "17-7B | R prcomp(scale.=TRUE) による主成分分析",
+      "textPreview": "17-7B | R prcomp(scale.=TRUE) による主成分分析",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#7A858C",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "17-7B | R prcomp(scale.=TRUE) による主成分分析"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "17-7B | R prcomp(scale.=TRUE) による主成分分析",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#7A858C"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "17-7B | R prcomp(scale.=TRUE) による主成分分析",
+              "fontSize": 11,
+              "color": "#7A858C"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

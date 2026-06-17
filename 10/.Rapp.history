@@ -1,0 +1,169 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+# 重回帰分析の実行 [4]#
+conveni <- read.table("conveni.csv", header=TRUE, sep=",")#
+hage <- read.table("hage.csv", header=TRUE, sep=",")#
+test_data <- read.table("test.csv", header=TRUE, sep=",")#
+# Y(売上) ~ X1(人口) + X2(商店) + X3(弁当) + X4(お菓子)#
+result_conveni <- lm(uriage_hyakuman ~ jinkou_sennin + syouten_tenpo + bento_syurui + okashi_syurui, data=conveni)#
+summary(result_conveni) # 係数などの確認 [5, 10]#
+#
+# 21番目の店舗の予測 (X1=30, X2=35, X3=25, X4=50)#
+new_store <- data.frame(jinkou_sennin=30, syouten_tenpo=35, bento_syurui=25, okashi_syurui=50)#
+pred_21 <- predict(result_conveni, new_store)#
+cat("課題 15-5A: 21番目の店舗の売上予測値 =", pred_21, "百万円\n")
+setwd("desktop")
+setwd("data")
+setwd("data")
+source("kadai.R")
+source("kadai.R")
+getwd()#
+list.files()
+source("kadai2.R")
+source("kadai2.R")
+source("kadai2.R")
+source("kadai2.R")
+source("kadai3.R")
+install.packages("dplyr")#
+install.packages("tidyr")#
+install.packages("ggplot2")#
+install.packages("gridExtra")
+source("kadai3.R")
+xcode-select --install
+version
+chooseCRANmirror()
+chooseCRANmirror()
+install.packages("dplyr")
+install.packages("utf8")#
+install.packages("pkgconfig")#
+install.packages("generics")#
+install.packages("pillar")#
+install.packages("tibble")#
+install.packages("tidyselect")
+install.packages("dplyr")
+source("kadai3.R")
+chooseCRANmirror()
+install.packages("rlang")#
+install.packages("vctrs")#
+install.packages("lifecycle")
+install.packages("rlang")#
+install.packages("vctrs")#
+install.packages("glue")#
+install.packages("magrittr")#
+install.packages("purrr")
+install.packages("tidyr")
+source("kadai3.R")
+install.packages("gridExtra")
+source("kadai3.R")
+source("kadai3.R")
+setwd(",,")
+setwd("..")
+setwd("10")
+setwd("10")
+setwd("..")
+setwd("..")
+getwd
+getwd()
+setwd("desktop")
+setwd("..")
+setwd("desktop")
+setwd("data")
+setwd("10")
+source("kadai.R")
+source("kadai1.R")
+library(MASS)#
+#
+gouhi <- read.table("gouhi_line_hantei.csv", header=TRUE, sep=",")#
+#
+hikki <- gouhi$hikki_shiken#
+mensetsu <- gouhi$mensetsu_shiken#
+gouhi_factor <- gouhi$hantei#
+#
+ans <- lda(gouhi_factor ~ hikki + mensetsu)#
+#
+ans2 <- predict(ans)#
+ans2
+source("kadai2.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai2.R")
+install.packages("Cairo")
+source("kadai2.R")
+source("kadai2.R")
+poster <- read.csv("Poster.csv", fileEncoding="UTF-8-BOM")#
+#
+# 1. Quartz デバイスを開く（画面に描画）#
+quartz(width=7, height=7, family="Hiragino Sans")#
+#
+plot(poster$Nendo, poster$Netsu,#
+     col=ifelse(poster$Hinshitsu=="ryou","blue","red"),#
+     pch=ifelse(poster$Hinshitsu=="ryou",16,17),#
+     xlab="粘度 (Nendo)",#
+     ylab="熱処理時間 (Netsu)",#
+     main="品質分類：粘度 × 熱処理時間")#
+#
+legend("topleft", legend=c("良品","不良品"),#
+       col=c("blue","red"), pch=c(16,17))#
+#
+# 2. Quartz の内容を PDF に保存#
+quartz.save("Class10_rp16-29B_scatter_YY.pdf", type="pdf")#
+#
+# 3. デバイスを閉じる#
+dev.off()
+source("kadai2.R")
+source("kadai３.R")
+source("kadai3.R")

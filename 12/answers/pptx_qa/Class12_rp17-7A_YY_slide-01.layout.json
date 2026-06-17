@@ -1,0 +1,835 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/g6ex0w",
+    "id": "g6ex0w",
+    "slide": 1,
+    "layoutId": "78871b1a-248c-433b-a139-90faa7fa1f53",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "caf51c7f-cf68-487e-9280-c9e7f6a9bb21",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F6F7",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "78871b1a-248c-433b-a139-90faa7fa1f53",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "caf51c7f-cf68-487e-9280-c9e7f6a9bb21",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "caf51c7f-cf68-487e-9280-c9e7f6a9bb21",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "1",
+      "bbox": [
+        64,
+        42,
+        890,
+        56
+      ],
+      "geometry": "rect",
+      "text": "入社試験成績の分析",
+      "textPreview": "入社試験成績の分析",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#143642",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "入社試験成績の分析"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "入社試験成績の分析",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#143642",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "入社試験成績の分析",
+              "fontSize": 34,
+              "color": "#143642",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "2",
+      "bbox": [
+        66,
+        92,
+        1000,
+        28
+      ],
+      "geometry": "rect",
+      "text": "nyusya_shiken.csv: 5名の試験結果を主成分分析で評価",
+      "textPreview": "nyusya_shiken.csv: 5名の試験結果を主成分分析で評価",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#56636D",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "nyusya_shiken.csv: 5名の試験結果を主成分分析で評価"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "nyusya_shiken.csv: 5名の試験結果を主成分分析で評価",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#56636D"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "nyusya_shiken.csv: 5名の試験結果を主成分分析で評価",
+              "fontSize": 15,
+              "color": "#56636D"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "3",
+      "bbox": [
+        64,
+        170,
+        248,
+        112
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE3E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbq1oryt",
+      "id": "4",
+      "bbox": [
+        64,
+        170,
+        8,
+        112
+      ],
+      "geometry": "rect",
+      "fillColor": "#2A9D8F",
+      "lineColor": "#2A9D8F",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjudg7a",
+      "id": "5",
+      "bbox": [
+        88,
+        188,
+        198,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PC1寄与率",
+      "textPreview": "PC1寄与率",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#56636D",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PC1寄与率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PC1寄与率",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#56636D",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PC1寄与率",
+              "fontSize": 14,
+              "color": "#56636D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y90je9cv",
+      "id": "6",
+      "bbox": [
+        88,
+        215,
+        198,
+        46
+      ],
+      "geometry": "rect",
+      "text": "56.3%",
+      "textPreview": "56.3%",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#143642",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "56.3%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "56.3%",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#143642",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "56.3%",
+              "fontSize": 28,
+              "color": "#143642",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nuxc3ylc",
+      "id": "7",
+      "bbox": [
+        334,
+        170,
+        248,
+        112
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE3E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbulwval",
+      "id": "8",
+      "bbox": [
+        334,
+        170,
+        8,
+        112
+      ],
+      "geometry": "rect",
+      "fillColor": "#E9C46A",
+      "lineColor": "#E9C46A",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sneloj2",
+      "id": "9",
+      "bbox": [
+        358,
+        188,
+        198,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PC2寄与率",
+      "textPreview": "PC2寄与率",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#56636D",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PC2寄与率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PC2寄与率",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#56636D",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PC2寄与率",
+              "fontSize": 14,
+              "color": "#56636D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcj6tova",
+      "id": "10",
+      "bbox": [
+        358,
+        215,
+        198,
+        46
+      ],
+      "geometry": "rect",
+      "text": "38.8%",
+      "textPreview": "38.8%",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#143642",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "38.8%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "38.8%",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#143642",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "38.8%",
+              "fontSize": 28,
+              "color": "#143642",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0rqd4vmt",
+      "id": "11",
+      "bbox": [
+        604,
+        170,
+        248,
+        112
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#DDE3E7",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b6xkf6dc",
+      "id": "12",
+      "bbox": [
+        604,
+        170,
+        8,
+        112
+      ],
+      "geometry": "rect",
+      "fillColor": "#E76F51",
+      "lineColor": "#E76F51",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/il0rqd4v",
+      "id": "13",
+      "bbox": [
+        628,
+        188,
+        198,
+        24
+      ],
+      "geometry": "rect",
+      "text": "累積寄与率",
+      "textPreview": "累積寄与率",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#56636D",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "累積寄与率"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "累積寄与率",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#56636D",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "累積寄与率",
+              "fontSize": 14,
+              "color": "#56636D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t47y1kre",
+      "id": "14",
+      "bbox": [
+        628,
+        215,
+        198,
+        46
+      ],
+      "geometry": "rect",
+      "text": "95.1%",
+      "textPreview": "95.1%",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "+mn-lt",
+        "color": "#143642",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "95.1%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "95.1%",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "color": "#143642",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "95.1%",
+              "fontSize": 28,
+              "color": "#143642",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0je9cvix",
+      "id": "15",
+      "bbox": [
+        70,
+        332,
+        520,
+        210
+      ],
+      "geometry": "rect",
+      "text": "・PC1は全科目が正方向で、総合力を表す軸と解釈できる\n・PC2は専門・論文が正、英語・面接が負で、強みの種類を分ける\n・PC1+PC2で元データの95.1%を説明できる",
+      "textPreview": "・PC1は全科目が正方向で、総合力を表す軸と解釈できる | ・PC2は専門・論文が正、英語・面接が負で、強みの種類を分ける | ・PC1+PC2で元データの95.1%を説明できる",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#1C2A32",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "・PC1は全科目が正方向で、総合力を表す軸と解釈できる"
+          },
+          {
+            "index": 2,
+            "text": "・PC2は専門・論文が正、英語・面接が負で、強みの種類を"
+          },
+          {
+            "index": 3,
+            "text": "分ける"
+          },
+          {
+            "index": 4,
+            "text": "・PC1+PC2で元データの95.1%を説明できる"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "・PC1は全科目が正方向で、総合力を表す軸と解釈できる",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#1C2A32"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "・PC1は全科目が正方向で、総合力を表す軸と解釈できる",
+              "fontSize": 18,
+              "color": "#1C2A32"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "・PC2は専門・論文が正、英語・面接が負で、強みの種類を分ける",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#1C2A32"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "・PC2は専門・論文が正、英語・面接が負で、強みの種類を分ける",
+              "fontSize": 18,
+              "color": "#1C2A32"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "・PC1+PC2で元データの95.1%を説明できる",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#1C2A32"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "・PC1+PC2で元データの95.1%を説明できる",
+              "fontSize": 18,
+              "color": "#1C2A32"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/orytsvu9",
+      "id": "16",
+      "bbox": [
+        675,
+        320,
+        500,
+        300
+      ],
+      "alt": "寄与率の棒グラフ",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "8a70ca4b-112e-4ccf-bc6c-a84721823a94",
+        "contentType": "image/png",
+        "byteLength": 54498
+      }
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/idonyd0z",
+      "id": "17",
+      "bbox": [
+        64,
+        682,
+        760,
+        22
+      ],
+      "geometry": "rect",
+      "text": "17-7A | R prcomp(scale.=TRUE) による主成分分析",
+      "textPreview": "17-7A | R prcomp(scale.=TRUE) による主成分分析",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#7A858C",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "17-7A | R prcomp(scale.=TRUE) による主成分分析"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "17-7A | R prcomp(scale.=TRUE) による主成分分析",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#7A858C"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "17-7A | R prcomp(scale.=TRUE) による主成分分析",
+              "fontSize": 11,
+              "color": "#7A858C"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

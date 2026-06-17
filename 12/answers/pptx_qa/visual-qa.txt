@@ -1,0 +1,5 @@
+Visual QA
+Generated three editable PPTX decks from R-produced PCA plots and CSV tables.
+Checked by rendering every slide to PNG plus montage via @oai/artifact-tool.
+No full-slide bitmap slides; plots are embedded as figures, with editable text and tables.
+Final files are in /Users/kakigoori/Desktop/data/12/answers.

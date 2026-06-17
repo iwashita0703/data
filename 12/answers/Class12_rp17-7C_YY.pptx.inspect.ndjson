@@ -1,0 +1,46 @@
+{"kind":"deck","id":"pr/dr5m6x","name":"Deck"}
+{"kind":"layout","layoutId":"47e524e5-7caa-4a51-987e-b9476f1191bd","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"cff13e5d-3320-48bc-9050-7bf5f025e869","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ep9okk","slide":1,"title":"車イメージ調査の販売促進分析","textShapes":10}
+{"kind":"textbox","id":"sh/r65wjudg","slide":1,"text":"車イメージ調査の販売促進分析","textPreview":"車イメージ調査の販売促進分析","textChars":14,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":1,"text":"image_tyousa.csv: A-J車種の印象語10項目をPCAで整理","textPreview":"image_tyousa.csv: A-J車種の印象語10項目をPCAで整理","textChars":38,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"shape","id":"sh/9cvixcze","slide":1,"bbox":[64,170,248,112]}
+{"kind":"shape","id":"sh/yxobm58z","slide":1,"bbox":[64,170,8,112]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":1,"text":"PC1寄与率","textPreview":"PC1寄与率","textChars":6,"textLines":1,"bbox":[88,188,198,24]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":1,"text":"54.7%","textPreview":"54.7%","textChars":5,"textLines":1,"bbox":[88,215,198,46]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":1,"bbox":[334,170,248,112]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":1,"bbox":[334,170,8,112]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":1,"text":"PC2寄与率","textPreview":"PC2寄与率","textChars":6,"textLines":1,"bbox":[358,188,198,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":1,"text":"25.6%","textPreview":"25.6%","textChars":5,"textLines":1,"bbox":[358,215,198,46]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":1,"bbox":[604,170,248,112]}
+{"kind":"shape","id":"sh/xczed8v6","slide":1,"bbox":[604,170,8,112]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":1,"text":"累積寄与率","textPreview":"累積寄与率","textChars":5,"textLines":1,"bbox":[628,188,198,24]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":1,"text":"80.3%","textPreview":"80.3%","textChars":5,"textLines":1,"bbox":[628,215,198,46]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":1,"text":"・PC1は「好き・欲しい」と「ダサい・嫌い」が反対方向に出る好意度軸\n・PC2は「プロ的・格好良い」と「一般的・初心者的」の違いを表す軸\n・PC1+PC2で元データの80.3%を説明できる","textPreview":"・PC1は「好き・欲しい」と「ダサい・嫌い」が反対方向に出る好意度軸 | ・PC2は「プロ的・格好良い」と「一般的・初心者的」の違いを表す軸 | ・PC1+PC2で元データの80.3%を説明できる","textChars":94,"textLines":3,"bbox":[70,332,520,210]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":1,"text":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"image","id":"im/q1orytsv","slide":1,"name":"","alt":"寄与率の棒グラフ","bbox":[675,320,500,300]}
+{"kind":"notes","id":"nt/ep9okk","slide":1,"text":""}
+{"kind":"slide","id":"sl/yq2lxd","slide":2,"title":"元データの確認","textShapes":4}
+{"kind":"textbox","id":"sh/at47y1kr","slide":2,"text":"元データの確認","textPreview":"元データの確認","textChars":7,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":2,"text":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textPreview":"各対象の得点・人数を比較し、PCA解釈の前提を確認する","textChars":27,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":2,"text":"・Aは一般的・ミーハー・好き・欲しいが高く、量販向きの印象が強い。\n・Cはプロ的が高い一方、好き・欲しいは弱い。F/Gは初心者的・ダサい側が目立つ。","textPreview":"・Aは一般的・ミーハー・好き・欲しいが高く、量販向きの印象が強い。 | ・Cはプロ的が高い一方、好き・欲しいは弱い。F/Gは初心者的・ダサい側が目立つ。","textChars":74,"textLines":2,"bbox":[72,602,1080,52]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":2,"text":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"table","id":"tb/5gbq1ory","slide":2,"name":"","rows":11,"cols":11,"preview":"kuruma | puro | kakkoii | suki | kawaii | ippanteki | miha | syoshinsya | dasai | kirai | hoshii","bbox":[58,132,1110,230]}
+{"kind":"image","id":"im/ed8bat47","slide":2,"name":"","alt":"元データの棒グラフ","bbox":[260,368,760,210]}
+{"kind":"notes","id":"nt/yq2lxd","slide":2,"text":""}
+{"kind":"slide","id":"sl/pop1jc","slide":3,"title":"主成分得点と負荷量","textShapes":4}
+{"kind":"textbox","id":"sh/xczed8v6","slide":3,"text":"主成分得点と負荷量","textPreview":"主成分得点と負荷量","textChars":9,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":3,"text":"第1主成分と第2主成分の位置関係から特徴を読む","textPreview":"第1主成分と第2主成分の位置関係から特徴を読む","textChars":23,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":3,"text":"・左側ほど好意・購買意向が強く、右側ほど否定的印象が強い。下側はプロ・格好良い寄りに読める。","textPreview":"・左側ほど好意・購買意向が強く、右側ほど否定的印象が強い。下側はプロ・格好良い寄りに読める。","textChars":46,"textLines":1,"bbox":[78,585,1040,70]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":3,"text":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"image","id":"im/y1kre1w7","slide":3,"name":"","alt":"主成分得点の散布図","bbox":[58,134,560,430]}
+{"kind":"image","id":"im/90je9cvi","slide":3,"name":"","alt":"主成分負荷量の散布図","bbox":[660,134,520,430]}
+{"kind":"notes","id":"nt/pop1jc","slide":3,"text":""}
+{"kind":"slide","id":"sl/zef2w0","slide":4,"title":"解釈と提案","textShapes":4}
+{"kind":"textbox","id":"sh/ovahoza1","slide":4,"text":"解釈と提案","textPreview":"解釈と提案","textChars":5,"textLines":1,"bbox":[64,42,890,56]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":4,"text":"分析担当としての結論","textPreview":"分析担当としての結論","textChars":10,"textLines":1,"bbox":[66,92,1000,28]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":4,"text":"・販売促進の中心候補はA。認知されやすく、好意度と購買意向が高い。\n・EとHは格好良さや欲しい印象を補助訴求として使える。\n・Cはプロ的印象を活かした専門性・こだわり訴求が向くが、欲しい印象の弱さを補う必要がある。\n・F/G/Dは初心者的・ダサい・嫌い側の印象が強く、改善またはターゲット再設定が必要。","textPreview":"・販売促進の中心候補はA。認知されやすく、好意度と購買意向が高い。 | ・EとHは格好良さや欲しい印象を補助訴求として使える。 | ・Cはプロ的印象を活かした専門性・こだわり訴求が向くが、欲しい印象の弱さを補う必要がある。 | ・F/G/Dは初心者的・ダサい・嫌い側の印象が...","textChars":151,"textLines":4,"bbox":[76,150,560,310]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":4,"text":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textPreview":"17-7C | R prcomp(scale.=TRUE) による主成分分析","textChars":38,"textLines":1,"bbox":[64,682,760,22]}
+{"kind":"table","id":"tb/kf6dcbul","slide":4,"name":"","rows":11,"cols":3,"preview":"kuruma | PC1 | PC2","bbox":[700,130,420,260]}
+{"kind":"table","id":"tb/d0z61032","slide":4,"name":"","rows":11,"cols":3,"preview":"variable | PC1 | PC2","bbox":[700,428,420,220]}
+{"kind":"notes","id":"nt/zef2w0","slide":4,"text":""}

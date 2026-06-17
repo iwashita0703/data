@@ -1,0 +1,143 @@
+1+1
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+nstall.packages("ggplot2")
+install.packages("ggplot2")
+library(ggplot2)
+# パッケージ読み込み#
+library(tidyverse)#
+#
+# サンプルデータ作成#
+sales <- data.frame(#
+  date = seq(as.Date("2024-01-01"), by = "month", length.out = 12),#
+  revenue = c(120, 150, 170, 160, 180, 200, 210, 190, 220, 230, 250, 270)#
+)#
+#
+# 基本統計量#
+summary(sales$revenue)#
+#
+# 平均売上#
+mean_sales <- mean(sales$revenue)#
+print(mean_sales)#
+#
+# グラフ作成#
+ggplot(sales, aes(x = date, y = revenue)) +#
+  geom_line() +#
+  geom_point() +#
+  labs(#
+    title = "Monthly Revenue Trend",#
+    x = "Date",#
+    y = "Revenue"#
+  ) +#
+  theme_minimal()
+# 重回帰分析の実行 [4]#
+conveni <- read.table("conveni.csv", header=TRUE, sep=",")#
+hage <- read.table("hage.csv", header=TRUE, sep=",")#
+test_data <- read.table("test.csv", header=TRUE, sep=",")#
+# Y(売上) ~ X1(人口) + X2(商店) + X3(弁当) + X4(お菓子)#
+result_conveni <- lm(uriage_hyakuman ~ jinkou_sennin + syouten_tenpo + bento_syurui + okashi_syurui, data=conveni)#
+summary(result_conveni) # 係数などの確認 [5, 10]#
+#
+# 21番目の店舗の予測 (X1=30, X2=35, X3=25, X4=50)#
+new_store <- data.frame(jinkou_sennin=30, syouten_tenpo=35, bento_syurui=25, okashi_syurui=50)#
+pred_21 <- predict(result_conveni, new_store)#
+cat("課題 15-5A: 21番目の店舗の売上予測値 =", pred_21, "百万円\n")
+setwd("desktop")
+setwd("data")
+setwd("11")
+library(MASS)#
+#
+Tochi <- read.table("Tochi_kakaku.csv", header = TRUE, sep = ",")#
+#
+Tochi_ans <- lda(Tochi[,1:4], Tochi[,5])#
+#
+Tochi_ans2 <- predict(Tochi_ans)#
+#
+hyou <- table(Tochi[,5], Tochi_ans2$class)#
+hyou
+source("kadai2.R")
+source("kadai3.R")
+source("kadai4.R")
+source("kadai4.R")
+source("kadai4.R")
+source("kadai4.R")
+source("kadai4.R")
+source("kadai4.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai3.R")
+source("kadai4.R")
+source("kadai3.R")
+source("kadai5.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai7.R")
+source("kadai8.R")
+source("kadai5.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai6.R")
+source("kadai9.R")
+source("kadai9.R")
+source("kadai9.R")
+source("kadai9.R")
+source("kadai9.R")
+source("kadai9.R")
+source("kadai9.R")
+source("kadai9.R")
+source("kadai9.R")
+# データ読み込み#
+hyouka <- read.table("hyouka.csv", header = TRUE, sep = ",")#
+#
+# 6列だけ使用（complaints〜advance）#
+hyouka6 <- hyouka[, 1:6]#
+#
+# 列名を英語に統一#
+colnames(hyouka6) <- c("complaints", "privileges", "learning",#
+                       "raises", "critical", "advance")#
+#
+# 主成分分析（標準化あり）#
+hyouka_pca <- prcomp(hyouka6, scale = TRUE)#
+#
+# --- 17-1B：主成分負荷量（loadings） ---#
+hyouka_pca$rotation
+source("kadai8.R")
+source("kadai8.R")
+source("kadai8.R")
+source("kadai8.R")
+source("kadai8.R")
+plot(hyouka_pca$scores[,1:2])#
+> plot(hyouka_pca$scores[,1:2], type=“n”)#
+> text (hyouka_pca$scores[,1:2],labels=1:30)
+source("kadai7.R")
+source("kadai7.R")
+source("kadai7.R")
