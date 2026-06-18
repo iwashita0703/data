@@ -1,0 +1,17 @@
+.DS_Store
+**/.DS_Store
+
+.Rhistory
+.RData
+.Rapp.history
+**/.Rhistory
+**/.RData
+**/.Rapp.history
+
+*.tmp
+*.log
+
+*.inspect.ndjson
+**/pdf_qa/
+**/pptx_qa/
+
